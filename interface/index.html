@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rover Interface</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="rover-interface-home" id="rover-interface-home">
+
+        <!-- rover arm camera video  -->
+
+        <img src="/camera-1-video.jpg" alt="" class="rover-interface-home-camera-top" id="rover-interface-home-camera-top" />
+        <div class="rover-arm-video-div"><img src="/camera-arm.webp" class="rover-arm-video" alt=""></div></div>
+       
+    <!-- rover temp. graph div  -->
+          
+    <div id="chartContainer" style="height: 250px; width: 400px; margin: 0px;"></div>
+
+
+    <!-- gripper control button -->
+      <div class="control-button-gripper-div">
+        <button class="control-button-gripper" id="control-button-gripper">ON</button>
+      </div>
+
+    <!-- arm control buttton  -->
+    <div class="control-arm-div">
+        <div>
+            <button class="control-button-arm" id="stepper-1-up">Up</button>
+            <button class="control-button-arm" id="stepper-2-up">Up</button>
+        </div>
+        <divmain-camera-footage-div>
+            <button class="control-button-arm" id="stepper-1-Down">Down</button>
+            <button class="control-button-arm" id="stepper-2-Down">Down</button>
+        </divmain-camera-footage-div>
+    </div>
+    <!-- rover control button  -->
+    <div class="control-rover-div">
+        <div style="margin-left: 66px"><button class="control-button" id="rover-ahead-button"> Ahead</button></div>
+        <div><button class="control-button" id="rover-Left-button">Left</button>
+            <button class="control-button" style="margin-left: 67px" id="rover-Right-button">Right</button></div>
+        <div style="margin-left: 66px"><button class="control-button" id="rover-Back-button">Back</button></div>
+        
+    </div>
+
+    <!-- main camera videos image  -->
+    <div class="main-camera-footage-div">
+        <img src="/camera-main-footage.jpg" alt="" class="main-camera-footage" id="main-camera-rover">
+    </div>
+    
+
+    
+  
+      
+    </section>
+    
+    
+    <script src="/script.js"></script>
+    
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+
+</body>
+</html>

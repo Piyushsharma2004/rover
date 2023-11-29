@@ -1,0 +1,84 @@
+.rover-interface-home{
+    height: 100vh;
+    background-size: cover;
+}
+.rover-interface-home-camera-top{
+    height: 100%;
+    position: absolute;
+    width: 220vh;
+    z-index: -1;
+    margin: 0px;
+
+}
+#chartContainer{
+  
+}
+.rover-arm-video-div {
+    width:400px; 
+    position: relative;
+    
+    
+    }
+
+.rover-arm-video {
+height: 220px; 
+width:400px; 
+
+
+}
+
+
+.control-button{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: #2c3e50;
+   
+}
+.control-rover-div{
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.control-arm-div{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.control-button-arm{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: #2c3e50; 
+    margin-bottom:5px;
+    margin-left: 5px;
+
+}
+.control-button-gripper{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: rgb(255, 0, 0); 
+    margin-bottom:5px;
+    margin-left: 5px;
+}
+.control-button-gripper-div{
+      position: absolute;
+    top: 20%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.main-camera-footage{
+    height: 400px;
+width: 700px;
+
+}
+.main-camera-footage-div{
+    position: absolute;
+   top: 4%;
+    left: 28%;
+
+ 
+}
